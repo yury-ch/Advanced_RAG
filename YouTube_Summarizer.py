@@ -20,7 +20,50 @@ from langchain_community.vectorstores import FAISS  # For efficient vector stora
 from langchain_core.prompts import PromptTemplate  # For defining prompt templates
 from langchain_core.output_parsers import StrOutputParser
 import tempfile
-import whisper
+import whisper# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+env/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Logs and databases
+*.log
+*.sqlite
+*.db
+
+# Project specific
+transcription.txt
+*.mp3
+*.mp4
+*.pdf
+
+# Environment variables
+.env
+.env.local
+
+# Model files and cache
+*.pt
+*.pth
+*.onnx
+*.bin
+.cache/
 from pytube import YouTube
 import yt_dlp
 import subprocess
