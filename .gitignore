@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+env/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Logs and databases
+*.log
+*.sqlite
+*.db
+
+# Project specific
+transcription.txt
+*.mp3
+*.mp4
+*.pdf
+
+# Environment variables
+.env
+.env.local
+
+# Model files and cache
+*.pt
+*.pth
+*.onnx
+*.bin
+.cache/
